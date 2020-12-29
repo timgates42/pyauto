@@ -451,7 +451,7 @@ class ServManageFrame(wx.Frame):
         self.Bind(wx.EVT_TIMER,self.OnNotify,self.timer)
         self.timer.Start(1000)
 
-        #Update check timeer
+        #Update check timer
         self.timer_p = wx.Timer(self,id=52)
         self.Bind(wx.EVT_TIMER,self.OnUpdatecheck,self.timer_p)       
         
